@@ -23,32 +23,3 @@ Backend: Django (Python)
 Frontend: HTML, CSS, Bootstrap (optional)
 
 Database: SQLite (default Django DB)
-
-▶️ Run Locally
-# Clone the repository
-git clone https://github.com/your-username/Django_ToDo-web.git
-cd Django_ToDo-web
-
-# Create virtual environment (optional but recommended)
-python -m venv env
-source env/bin/activate       # Mac/Linux
-env\Scripts\activate          # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run migrations
-python manage.py migrate
-
-# Start server
-python manage.py runserver
-
-
-Now visit: 👉 http://127.0.0.1:8000/
-
-📂 Project Structure
-/todo
-  |-- todo_app
-  |-- templates
-  |-- static
-  |-- manage.py
